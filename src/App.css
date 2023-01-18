@@ -15,7 +15,7 @@
   background-color: var(--appColor);
   display: flex;
   flex-direction: column;
-  gap: 6rem;
+  gap: 4rem;
   overflow: hidden;
 }
 ::-webkit-scrollbar{
