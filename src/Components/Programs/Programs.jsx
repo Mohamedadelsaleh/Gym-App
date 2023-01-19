@@ -12,9 +12,9 @@ const Programs = () => {
                 <span className="stroke-text">to shape you</span>
             </div>
             <div className="program-categories">
-                {programsData.map((program) =>
+                {programsData.map((program, idx) =>
                         (
-                            <div className="category">
+                            <div className="category" key={idx}>
                                 {program.image}
                                 <span>{program.heading}</span>
                                 <span>{program.details}</span>
