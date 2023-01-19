@@ -41,6 +41,14 @@ const Reasons = () => {
                         <img src={tick} alt='tick' />
                         <span>RELIABLE PARTNERS</span>
                     </div>
+                    <div>
+                        <img src={tick} alt='tick' />
+                        <span>24/7 full equipped facility</span>
+                    </div>
+                    <div>
+                        <img src={tick} alt='tick' />
+                        <span>Reach your potential faster with a private consultation</span>
+                    </div>
                 </div>
                 <span style={{ color: "var(--gray)", fontWeight: "normal" }}>OUR PARTNERS</span>
                 <div className='partners'>
