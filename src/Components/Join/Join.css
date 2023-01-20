@@ -1,0 +1,59 @@
+.Join {
+    display: flex;
+    padding: 0 2rem;
+    gap: 15rem;
+}
+
+.join-left {
+    color:white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+
+}
+
+.join-left > div {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.join-left > hr {
+    position: absolute;
+    width: 10.5rem;
+    border: 2px solid var(--orange);
+    border-radius: 20%;
+    margin: -10px 0;
+}
+
+.join-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-container {
+    display: flex;
+    gap: 3rem;
+    background-color: gray;
+    padding: 1rem 2rem;
+}
+
+.email-container > input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.25rem;
+    width: 20rem;
+    color: var(--lightgray);
+}
+
+::placeholder {
+    color: var(--lightgray);
+}
+
+.btn-join {
+    background-color: var(--orange);
+    color:white;
+}
