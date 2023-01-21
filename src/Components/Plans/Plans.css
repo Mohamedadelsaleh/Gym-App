@@ -98,3 +98,32 @@
     top: 8rem;
     right: 0rem;
 }
+
+@media screen and (max-width: 768px) {
+    .plans-header {
+        flex-direction: column;
+        gap: 1rem;
+        font-size: x-large;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0rem;
+    }
+
+    .plans {
+        flex-direction: column;
+        
+    }
+
+    .plan {
+        width: fit-content;
+    }
+
+    .plans >:nth-child(2) {
+        transform: none;
+        
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+}
+}

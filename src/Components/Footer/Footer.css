@@ -50,3 +50,12 @@
     background: rgb(255, 115, 0);
     -webkit-filter: blur(250px);
 }
+
+@media screen and (max-width: 768px) {
+
+    .social-links {
+        display: flex;
+        gap: 2rem;
+    }
+
+}

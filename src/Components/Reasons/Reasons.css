@@ -87,3 +87,34 @@
     width: 3rem;
     height: 3rem;
 }
+
+@media screen and (max-width: 768px) {
+    .Reasons {
+        flex-direction: column;
+    }
+    .left-reasons {
+        margin-top: 0rem;
+        grid-auto-rows: auto;
+        overflow: hidden;
+    }
+
+    .left-reasons >:nth-child(1) {
+        width: 7rem;
+        height: 17rem;
+    }
+
+    .left-reasons >:nth-child(2) {
+        width: 15rem;
+        height: 10rem;
+    }
+
+    .left-reasons >:nth-child(3) {
+        width: 8rem;
+        height: 6rem;
+    }
+
+    .left-reasons >:nth-child(4) {
+        width: 7rem;
+        height: 6rem;
+    }
+}
