@@ -120,10 +120,18 @@
 
     .plans >:nth-child(2) {
         transform: none;
-        
-        -webkit-transform: none;
-        -moz-transform: none;
-        -ms-transform: none;
-        -o-transform: none;
+    }
 }
+
+@media only screen and (min-width : 769px) and (max-width : 1024px) {
+    
+    .plans-header {
+        gap: 2rem;
+        font-size: 1.7rem;
+    }
+    
+    .plans {
+        gap: 2rem;
+    }
+    
 }

@@ -89,3 +89,31 @@
         width: max-content;
     }
 }
+
+
+@media only screen and (min-width : 769px) and (max-width : 1024px) {
+    .Join {
+        gap: 4rem;
+    }
+    
+    .join-left {
+        font-size: 2rem;
+    }
+    
+    .join-left > div {
+        gap: 1rem;
+        width: max-content;
+    }
+    
+    .email-container {
+        gap: 1rem;
+        padding: 1rem 0rem 1rem 1rem;
+        border-radius: 5px;
+}
+    
+    .email-container > input {
+        font-size: 1.1rem;
+        width: max-content;
+    }
+    
+}

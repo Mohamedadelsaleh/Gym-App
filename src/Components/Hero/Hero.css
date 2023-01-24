@@ -277,3 +277,61 @@
     }
 
 }
+
+@media only screen and (min-width : 769px) and (max-width : 1024px) {
+    .the-best-ad{
+        margin-top: 1rem;
+    }
+    
+    .hero-text{
+        font-size: 4rem;
+    }
+
+    .hero-text > div:nth-of-type(3){
+        font-size: 1.2rem;
+        font-weight: 200;
+        text-transform: none;
+        letter-spacing: 1px;
+        width: 90%;
+    }
+
+    .right-hero> .btn {
+        left: 1rem;
+    }
+
+    .heart-rate {
+        gap: 0.5rem;
+        width: max-content;
+        left: 1rem;
+        top: 6rem;
+    }
+    
+    
+    .heart-rate > :nth-child(3) {
+        color:white;
+        font-size: 1.2rem;
+    }
+    
+    .hero-image {
+        top: 30%;
+        right: 20%;
+        width: 18rem;
+    }
+    
+    .hero-image-back {
+        top: 15%;
+        left: -100%;
+        width: 18rem;
+    }
+    
+    .calories{
+        top: 87%;
+        left: -18rem;
+        
+    }
+    
+    .calories > img {
+        width: 2.5rem;
+    }
+
+}

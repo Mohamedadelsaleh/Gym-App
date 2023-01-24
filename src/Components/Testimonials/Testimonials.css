@@ -129,3 +129,40 @@
     }
     
 }
+
+@media only screen and (min-width : 769px) and (max-width : 1024px) {
+
+    .Testimonials {
+        gap: 2rem;
+    }
+    
+    .test-left > :nth-child(4) {
+        letter-spacing: 1px;
+        font-size: 1rem;
+        max-height: 10rem;
+        margin-bottom: 1rem;
+    
+    }
+    
+
+    .test-right > img {
+        left: 4rem;
+        top: 8rem;
+    }
+    
+    .test-right > :nth-child(1) {
+        left: 3rem;
+        top: 7rem;
+    }
+    
+    .test-right > :nth-child(2) {
+        left: 5rem;
+        top: 10rem;
+    }
+    
+    .arrows {
+        bottom: -3rem;
+        left: 10rem;
+    }
+
+}
