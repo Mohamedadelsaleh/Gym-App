@@ -102,6 +102,10 @@
         height: 17rem;
     }
 
+    .right-reasons > div {
+        font-size: 2.7rem;
+    }
+
     .left-reasons >:nth-child(2) {
         width: 100%;
         height: 10rem;
